@@ -1,0 +1,7 @@
+{
+  "name": "@modules/azure-openai-dalle",
+  "version": "1.0.0",
+  "description": "This application is a React Native Web Application that interacts with the Azure OpenAI DALL-E model to generate images based on user prompts. The application is designed to be a front-end module that communicates with a back-end module to generate and display images.",
+  "private": true,
+  "main": "index.js"
+}

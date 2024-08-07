@@ -1,0 +1,8 @@
+{
+  "title": "Azure OpenAI DALL-E Image Generator (front end)",
+  "description": "This application is a React Native Web Application that interacts with the Azure OpenAI DALL-E model to generate images based on user prompts. The application is designed to be a front-end module that communicates with a back-end module to generate and display images.",
+  "search_description": "This application is a React Native Web Application that interacts with the Azure OpenAI DALL-E model to generate images based on user prompts. The application is designed to be a front-end module that communicates with a back-end module to generate and display images.",
+  "acceptance_criteria": "The application should provide an input field for users to enter a prompt. The application should send the user's prompt to the Azure OpenAI DALL-E model via the back-end module. The application should receive the generated image from the back-end module. The application should display the generated image to the user. The application should handle errors gracefully, providing informative error messages to the user if the image generation fails. The application should be installable via the Crowdbotics platform. The application should have the necessary dependencies installed, including React Native Vector Icons and the Azure OpenAI DALL-E Image Generator (back-end). The application should be able to run locally with the 'corsheaders' package installed.",
+  "root": "/modules/azure-openai-dalle",
+  "schema": {}
+}
