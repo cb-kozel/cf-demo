@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Data View</title>
+    <link rel="stylesheet" type="text/css" href="../public/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Weather Information</h1>
+
+      <form action="/weather" method="get">
+        <label for="city">City:</label><br />
+        <input type="text" id="city" name="city" /><br />
+        <label for="state">State:</label><br />
+        <input type="text" id="state" name="state" /><br />
+        <input type="submit" value="Get Weather" />
+      </form>
+
+      <% if (typeof forecast !== 'undefined') { %>
+      <h2>Forecast</h2>
+      <div class="weather-info">
+        <% forecast.forEach(period => { %>
+        <div class="period">
+          <h3><%= period.name %></h3>
+          <p><%= period.detailedForecast %></p>
+        </div>
+
+        <% }); %>
+      </div>
+      <% } %>
+    </div>
+  </body>
+</html>
