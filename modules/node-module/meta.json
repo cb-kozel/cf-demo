@@ -1,6 +1,0 @@
-{
-  "title": "node-weather-module",
-  "description": "This is a simple web application that provides weather information based on the city and state input by the user.",
-  "root": "/modules/node-weather-module",
-  "schema": {}
-}
